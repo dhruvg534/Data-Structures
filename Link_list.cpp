@@ -262,7 +262,7 @@ int main()
 
   //Insertion
   printf("Insertion of Node\n");
-  head = insertion_at_pos(head,5,5);
+  head = insertion_at_pos(head,5,2);
   traversal(head);
   head = insertion_at_beg(head,6);
   traversal(head);
@@ -273,7 +273,7 @@ int main()
   printf("Deletion of Nodes\n");
   head = Delete_at_beg(head);
   traversal(head);
-  head = Delete_at_pos(head,6);
+  head = Delete_at_pos(head,3);
   traversal(head);
   head = Delete_at_end(head);
   traversal(head);
