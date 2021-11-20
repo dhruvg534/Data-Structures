@@ -1,4 +1,17 @@
 // Implementation of Singly Link list
+/* 
+Operations in the written code are:
+Traversal
+Creation of Linklist
+Insertion
+  Insertion at beginning
+  Insertion at the position
+  Insertion at the end
+Deletion
+  Deletion at beginning
+  Deletion at Position
+  Deletion at the end
+*/
 
 #include <iostream>
 using namespace std;
